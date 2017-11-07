@@ -1,0 +1,45 @@
+Oct 02, 2017 4:04:24 PM jsensor.Main findClass
+SEVERE: null
+java.lang.ClassNotFoundException: projects.Flooding.DistributionModels.RandomDistribution
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at jsensor.Main.findClass(Main.java:1473)
+	at jsensor.Main.findClass(Main.java:1500)
+	at jsensor.Main.argsParser(Main.java:583)
+	at jsensor.Main.run(Main.java:152)
+	at jsensor.Main.main(Main.java:79)
+
+Oct 02, 2017 4:08:03 PM jsensor.Main findClass
+SEVERE: null
+java.lang.ClassNotFoundException: projects.Flooding.DistributionModels.RandomDistribution
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at jsensor.Main.findClass(Main.java:1473)
+	at jsensor.Main.findClass(Main.java:1500)
+	at jsensor.Main.argsParser(Main.java:583)
+	at jsensor.Main.run(Main.java:152)
+	at jsensor.Main.main(Main.java:79)
+
+Oct 02, 2017 4:20:54 PM jsensor.Main findClass
+SEVERE: null
+java.lang.ClassNotFoundException: projects.Flooding.DistributionModels.RandomDistribution
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at jsensor.Main.findClass(Main.java:1473)
+	at jsensor.Main.findClass(Main.java:1500)
+	at jsensor.Main.argsParser(Main.java:583)
+	at jsensor.Main.run(Main.java:152)
+	at jsensor.Main.main(Main.java:79)
+

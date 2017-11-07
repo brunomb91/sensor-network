@@ -1,0 +1,18 @@
+time: 20	 sensorID: 1	 sendTo: 372
+time: 30	 sensorID: 2	 sendTo: 34
+time: 40	 sensorID: 3	 sendTo: 275
+time: 50	 sensorID: 4	 sendTo: 286
+time: 60	 sensorID: 5	 sendTo: 313
+time: 70	 sensorID: 6	 sendTo: 756
+time: 80	 sensorID: 7	 sendTo: 457
+time: 90	 sensorID: 8	 sendTo: 134
+time: 100	 sensorID: 9	 sendTo: 732
+time: 120	 sensorID: 313	 receivedFrom: 5	 hops: 6	 msg: Created by the sensor: 5 Path: 715 - 727 - 654 - 214 - 702 - 313
+time: 130	 sensorID: 275	 receivedFrom: 3	 hops: 9	 msg: Created by the sensor: 3 Path: 227 - 624 - 254 - 528 - 642 - 662 - 754 - 388 - 275
+time: 180	 sensorID: 372	 receivedFrom: 1	 hops: 16	 msg: Created by the sensor: 1 Path: 498 - 328 - 285 - 228 - 993 - 163 - 657 - 116 - 796 - 482 - 202 - 594 - 967 - 393 - 209 - 372
+time: 180	 sensorID: 286	 receivedFrom: 4	 hops: 13	 msg: Created by the sensor: 4 Path: 631 - 161 - 972 - 962 - 146 - 446 - 993 - 228 - 285 - 800 - 325 - 806 - 286
+time: 210	 sensorID: 756	 receivedFrom: 6	 hops: 14	 msg: Created by the sensor: 6 Path: 610 - 778 - 720 - 13 - 529 - 396 - 9 - 249 - 134 - 363 - 924 - 246 - 60 - 756
+time: 310	 sensorID: 134	 receivedFrom: 8	 hops: 22	 msg: Created by the sensor: 8 Path: 747 - 861 - 401 - 604 - 89 - 377 - 293 - 100 - 797 - 815 - 341 - 412 - 507 - 137 - 306 - 383 - 719 - 36 - 565 - 61 - 327 - 134
+time: 340	 sensorID: 732	 receivedFrom: 9	 hops: 24	 msg: Created by the sensor: 9 Path: 396 - 529 - 281 - 107 - 658 - 675 - 495 - 196 - 616 - 254 - 340 - 409 - 659 - 611 - 105 - 668 - 837 - 576 - 806 - 286 - 404 - 490 - 10 - 732
+time: 370	 sensorID: 34	 receivedFrom: 2	 hops: 34	 msg: Created by the sensor: 2 Path: 734 - 506 - 375 - 330 - 544 - 289 - 695 - 62 - 745 - 556 - 974 - 616 - 192 - 227 - 3 - 69 - 883 - 4 - 231 - 650 - 140 - 150 - 855 - 120 - 527 - 582 - 280 - 324 - 606 - 313 - 521 - 425 - 550 - 34
+time: 390	 sensorID: 457	 receivedFrom: 7	 hops: 31	 msg: Created by the sensor: 7 Path: 490 - 404 - 577 - 250 - 130 - 498 - 240 - 105 - 611 - 659 - 82 - 72 - 407 - 153 - 485 - 4 - 110 - 387 - 484 - 548 - 733 - 33 - 26 - 991 - 22 - 341 - 258 - 115 - 705 - 220 - 457
