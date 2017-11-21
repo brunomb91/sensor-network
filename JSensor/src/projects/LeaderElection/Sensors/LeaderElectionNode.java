@@ -13,12 +13,12 @@ import projects.LeaderElection.Messages.LeaderElectionMessage;
 import projects.LeaderElection.Timers.LeaderElectionTimer;
 
 public class LeaderElectionNode extends Node {
-	Queue<Node> nodeQueue = new PriorityQueue<Node>();
+	static Queue<Node> nodeQueue = new PriorityQueue<Node>();
     public LinkedList<Long> messagesIDs; 
 
-	HashMap<Node, Boolean> signal;
-	Node leader;
-	Node newLeader;
+	static HashMap<Node, Boolean> signal;
+	static Node leader;
+	static Node newLeader;
 	
 	@Override
 	public void handleMessages(Inbox inbox) {
@@ -85,8 +85,8 @@ public class LeaderElectionNode extends Node {
 	 * Implementação do algoritmo de eleição de líder proposto no artigo
 	 * Optimal Distributed Leader Election Algorithm
 	 */
-	
-	public void optimalLeaderElection(Node node, LeaderElectionMessage leaderElectionMessage) {
+	/*
+	public static void optimalLeaderElection(Node node) {
 		HashMap<Node, Double> fail = new HashMap<Node, Double>();
 		Node[] arrayQueue;
 		int sizeOfQueue = nodeQueue.size();
@@ -111,11 +111,13 @@ public class LeaderElectionNode extends Node {
 			}
 			
 			else {
-				leaderElectionMessage.setLeaderMsg("Election");
+				// leaderElectionMessage.setLeaderMsg("Election");
 				newLeader = nodeQueue.peek();
 				signal.replace(leader, false);
 			}
 		}
 	}
+	*/
+	
 	
 }

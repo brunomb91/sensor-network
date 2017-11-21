@@ -1,0 +1,36 @@
+Nov 21, 2017 4:11:42 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at java.util.PriorityQueue.offer(PriorityQueue.java:335)
+	at java.util.PriorityQueue.add(PriorityQueue.java:321)
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:63)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 4:11:53 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at java.util.PriorityQueue.offer(PriorityQueue.java:335)
+	at java.util.PriorityQueue.add(PriorityQueue.java:321)
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:63)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 4:13:00 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at java.util.PriorityQueue.offer(PriorityQueue.java:335)
+	at java.util.PriorityQueue.add(PriorityQueue.java:321)
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 4:15:37 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at java.util.PriorityQueue.offer(PriorityQueue.java:335)
+	at java.util.PriorityQueue.add(PriorityQueue.java:321)
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+

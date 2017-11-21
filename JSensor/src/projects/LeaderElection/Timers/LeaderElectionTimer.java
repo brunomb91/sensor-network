@@ -11,6 +11,7 @@ public class LeaderElectionTimer extends TimerEvent {
 	@Override
 	public void fire() {
 		Node destination = this.node.getRandomNode("LeaderElectionNode");
+		
     	while(true){
     		if(destination == null) {
                 destination = this.node.getRandomNode("LeaderElectionNode");
