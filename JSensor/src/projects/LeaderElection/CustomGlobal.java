@@ -9,12 +9,12 @@ import jsensor.runtime.AbsCustomGlobal;
 import jsensor.runtime.Jsensor;
 
 public class CustomGlobal extends AbsCustomGlobal {
-	Queue<Node> nodeQueue = new PriorityQueue<Node>();
-	HashMap<Node, Boolean> signal;
-	Node[] arrayQueue;
-	Node leader;
-	Node newLeader;
-	HashMap<Node, Double> fail = new HashMap<Node, Double>();
+	Queue<Integer> nodeQueue = new PriorityQueue<Integer>();
+	HashMap<Integer, Boolean> signal;
+	Integer[] arrayQueue;
+	Integer leader;
+	Integer newLeader;
+	HashMap<Integer, Double> fail = new HashMap<Integer, Double>();
 	
 	@Override
 	public boolean hasTerminated() {
@@ -33,7 +33,7 @@ public class CustomGlobal extends AbsCustomGlobal {
 
 	@Override
 	public void preRound() {
-		for (Node i: nodeQueue) {
+		for (Integer i: nodeQueue) {
 			fail.put(i, Math.random()); // Probabilidade de falha dos nós
 		}
 		
@@ -58,11 +58,11 @@ public class CustomGlobal extends AbsCustomGlobal {
 
 	@Override
 	public void preRun() {
-		for (int i = 0; i< Jsensor.numNodes; i++) {
-			nodeQueue.add(Jsensor.getNodeByID(i));
-			signal.put(Jsensor.getNodeByID(i), false); // Variável Signal de cada nó alterada para false (ou No)
+		for (Integer i = 0; i< Jsensor.numNodes; i++) {
+			nodeQueue.add(i);
+			signal.put(i, false); // Variável Signal de cada nó alterada para false (ou No)
 		}
-		arrayQueue = nodeQueue.toArray(new Node[nodeQueue.size()]);
+		arrayQueue = nodeQueue.toArray(new Integer[nodeQueue.size()]);
 		leader = arrayQueue[(int) Math.random() * nodeQueue.size()]; // Selecionado aleatoriamente para enviar a mensagem LEADER
 	}
 

@@ -79,45 +79,6 @@ public class LeaderElectionNode extends Node {
             ft.startRelative(time, this);
         }
 		
-	}
-	
-	/*
-	 * Implementação do algoritmo de eleição de líder proposto no artigo
-	 * Optimal Distributed Leader Election Algorithm
-	 */
-	/*
-	public static void optimalLeaderElection(Node node) {
-		HashMap<Node, Double> fail = new HashMap<Node, Double>();
-		Node[] arrayQueue;
-		int sizeOfQueue = nodeQueue.size();
-		long delay = 2; 
-		
-		nodeQueue.add(node);
-		fail.put(node, Math.random()); // Probabilidade de falha dos nós
-		signal.put(node, false); // Variável Signal de cada nó alterada para false (ou No)
-		arrayQueue = nodeQueue.toArray(new Node[sizeOfQueue]);	
-		leader = arrayQueue[(int) Math.random() * sizeOfQueue]; // Selecionado aleatoriamente para enviar a mensagem LEADER
-		
-		for(int i=0; i<nodeQueue.size(); i++) {
-			signal.replace(leader, true);
-			
-			if(fail.get(leader) >= 0.8) { // Supondo que os nós que tenham probabilidade de quebrar maior que 80%
-				try {
-					leader.wait(delay);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-				signal.replace(leader, false);
-			}
-			
-			else {
-				// leaderElectionMessage.setLeaderMsg("Election");
-				newLeader = nodeQueue.peek();
-				signal.replace(leader, false);
-			}
-		}
-	}
-	*/
-	
+	}	
 	
 }

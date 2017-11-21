@@ -34,3 +34,70 @@ java.lang.NullPointerException
 	at jsensor.Main.run(Main.java:201)
 	at jsensor.Main.main(Main.java:79)
 
+Nov 21, 2017 4:28:20 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at java.util.PriorityQueue.offer(PriorityQueue.java:335)
+	at java.util.PriorityQueue.add(PriorityQueue.java:321)
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 4:36:50 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at java.util.PriorityQueue.offer(PriorityQueue.java:335)
+	at java.util.PriorityQueue.add(PriorityQueue.java:321)
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 4:57:40 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 5:03:52 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 5:04:48 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 5:06:13 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 5:09:55 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:62)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 5:11:41 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:63)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
+Nov 21, 2017 5:12:50 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at projects.LeaderElection.CustomGlobal.preRun(CustomGlobal.java:63)
+	at jsensor.Main.run(Main.java:201)
+	at jsensor.Main.main(Main.java:79)
+
