@@ -1,0 +1,219 @@
+* time: 1 nodeID: 463 sendTo: 368 byAntenna: 521
+* time: 1 nodeID: 456 sendTo: 125 byAntenna: 524
+* time: 1 nodeID: 317 sendTo: 39 byAntenna: 517
+* time: 1 nodeID: 216 sendTo: 14 byAntenna: 509
+* time: 1 nodeID: 315 sendTo: 476 byAntenna: 512
+* time: 1 nodeID: 117 sendTo: 167 byAntenna: 502
+* time: 1 nodeID: 150 sendTo: 490 byAntenna: 509
+* time: 1 nodeID: 72 sendTo: 98 byAntenna: 502
+* time: 2 nodeID: 239 sendTo: 377 byAntenna: 514
+* time: 2 nodeID: 163 sendTo: 68 byAntenna: 507
+* time: 2 nodeID: 440 sendTo: 202 byAntenna: 525
+* time: 2 nodeID: 290 sendTo: 123 byAntenna: 511
+* time: 2 nodeID: 272 sendTo: 102 byAntenna: 512
+* time: 2 nodeID: 160 sendTo: 230 byAntenna: 507
+* time: 2 nodeID: 126 sendTo: 28 byAntenna: 504
+* time: 3 nodeID: 295 sendTo: 215 byAntenna: 512
+[No signal] time: 3 nodeID: 243
+[No signal] position: 2236, 25000
+* time: 3 nodeID: 498 sendTo: 269 byAntenna: 524
+* time: 3 nodeID: 490 sendTo: 233 byAntenna: 522
+* time: 3 nodeID: 454 sendTo: 448 byAntenna: 523
+* time: 3 nodeID: 338 sendTo: 355 byAntenna: 517
+* time: 3 nodeID: 268 sendTo: 165 byAntenna: 511
+* time: 3 nodeID: 180 sendTo: 401 byAntenna: 506
+* time: 3 nodeID: 148 sendTo: 201 byAntenna: 509
+* time: 4 nodeID: 106 sendTo: 461 byAntenna: 504
+* time: 4 nodeID: 477 sendTo: 451 byAntenna: 524
+* time: 4 nodeID: 339 sendTo: 80 byAntenna: 517
+* time: 4 nodeID: 147 sendTo: 351 byAntenna: 509
+* time: 4 nodeID: 51 sendTo: 99 byAntenna: 502
+[Received] time: 5	 sensorID: 98	 receivedFrom: 72	 hops: 2	 msg: This is the message number 1 created by the node 72 path 72 - 502 - 98
+* time: 5 nodeID: 484 sendTo: 416 byAntenna: 525
+* time: 5 nodeID: 470 sendTo: 338 byAntenna: 522
+* time: 5 nodeID: 145 sendTo: 70 byAntenna: 508
+* time: 5 nodeID: 448 sendTo: 36 byAntenna: 522
+* time: 5 nodeID: 125 sendTo: 252 byAntenna: 504
+* time: 5 nodeID: 380 sendTo: 458 byAntenna: 517
+* time: 5 nodeID: 270 sendTo: 199 byAntenna: 512
+[Received] time: 6	 sensorID: 230	 receivedFrom: 160	 hops: 2	 msg: This is the message number 1 created by the node 160 path 160 - 507 - 230
+* time: 6 nodeID: 318 sendTo: 253 byAntenna: 517
+* time: 6 nodeID: 427 sendTo: 349 byAntenna: 522
+* time: 6 nodeID: 379 sendTo: 497 byAntenna: 517
+* time: 6 nodeID: 299 sendTo: 242 byAntenna: 513
+* time: 6 nodeID: 275 sendTo: 194 byAntenna: 513
+* time: 6 nodeID: 205 sendTo: 433 byAntenna: 507
+[Received] time: 7	 sensorID: 167	 receivedFrom: 117	 hops: 3	 msg: This is the message number 0 created by the node 117 path 117 - 502 - 507 - 167
+* time: 7 nodeID: 491 sendTo: 370 byAntenna: 522
+* time: 7 nodeID: 178 sendTo: 36 byAntenna: 506
+* time: 7 nodeID: 136 sendTo: 393 byAntenna: 506
+* time: 7 nodeID: 112 sendTo: 317 byAntenna: 501
+* time: 7 nodeID: 74 sendTo: 259 byAntenna: 502
+* time: 7 nodeID: 64 sendTo: 167 byAntenna: 505
+[Received] time: 8	 sensorID: 99	 receivedFrom: 51	 hops: 2	 msg: This is the message number 0 created by the node 51 path 51 - 502 - 99
+* time: 8 nodeID: 447 sendTo: 246 byAntenna: 522
+* time: 8 nodeID: 281 sendTo: 262 byAntenna: 514
+* time: 8 nodeID: 95 sendTo: 450 byAntenna: 502
+* time: 8 nodeID: 460 sendTo: 110 byAntenna: 525
+* time: 8 nodeID: 336 sendTo: 168 byAntenna: 517
+[No route] time: 8 source node ID: 292 dest node ID: 16
+* time: 8 nodeID: 114 sendTo: 324 byAntenna: 506
+[Received] time: 9	 sensorID: 355	 receivedFrom: 338	 hops: 3	 msg: This is the message number 1 created by the node 338 path 338 - 517 - 516 - 355
+[Received] time: 9	 sensorID: 476	 receivedFrom: 315	 hops: 4	 msg: This is the message number 0 created by the node 315 path 315 - 512 - 517 - 518 - 476
+[Received] time: 9	 sensorID: 448	 receivedFrom: 454	 hops: 3	 msg: This is the message number 1 created by the node 454 path 454 - 523 - 522 - 448
+[Received] time: 9	 sensorID: 14	 receivedFrom: 216	 hops: 4	 msg: This is the message number 1 created by the node 216 path 216 - 509 - 508 - 503 - 14
+* time: 9 nodeID: 483 sendTo: 71 byAntenna: 525
+* time: 9 nodeID: 327 sendTo: 351 byAntenna: 519
+* time: 9 nodeID: 227 sendTo: 427 byAntenna: 512
+[No signal] time: 9 nodeID: 21
+[No signal] position: 46956, 404
+[No signal] time: 9 nodeID: 11
+[No signal] position: 24596, 404
+* time: 9 nodeID: 434 sendTo: 184 byAntenna: 524
+* time: 9 nodeID: 420 sendTo: 100 byAntenna: 516
+* time: 9 nodeID: 418 sendTo: 92 byAntenna: 520
+* time: 9 nodeID: 302 sendTo: 398 byAntenna: 514
+[Received] time: 10	 sensorID: 72	 receivedFrom: 98	 hops: 2	 msg:  - 502 - 72
+[Received] time: 10	 sensorID: 68	 receivedFrom: 163	 hops: 4	 msg: This is the message number 0 created by the node 163 path 163 - 507 - 506 - 501 - 68
+[Received] time: 10	 sensorID: 28	 receivedFrom: 126	 hops: 4	 msg: This is the message number 1 created by the node 126 path 126 - 504 - 503 - 502 - 28
+[Received] time: 10	 sensorID: 451	 receivedFrom: 477	 hops: 3	 msg: This is the message number 0 created by the node 477 path 477 - 524 - 523 - 451
+[Received] time: 10	 sensorID: 351	 receivedFrom: 147	 hops: 3	 msg: This is the message number 0 created by the node 147 path 147 - 509 - 514 - 351
+* time: 10 nodeID: 476 sendTo: 142 byAntenna: 523
+* time: 10 nodeID: 438 sendTo: 30 byAntenna: 525
+* time: 10 nodeID: 487 sendTo: 207 byAntenna: 521
+* time: 10 nodeID: 412 sendTo: 252 byAntenna: 519
+* time: 10 nodeID: 282 sendTo: 378 byAntenna: 514
+* time: 10 nodeID: 174 sendTo: 247 byAntenna: 510
+* time: 10 nodeID: 162 sendTo: 491 byAntenna: 507
+* time: 10 nodeID: 56 sendTo: 40 byAntenna: 503
+[No signal] time: 10 nodeID: 8
+[No signal] position: 17888, 404
+[No signal] time: 10 nodeID: 4
+[No signal] position: 8944, 404
+* time: 10 nodeID: 449 sendTo: 63 byAntenna: 522
+* time: 10 nodeID: 433 sendTo: 269 byAntenna: 523
+* time: 10 nodeID: 329 sendTo: 256 byAntenna: 520
+* time: 10 nodeID: 81 sendTo: 131 byAntenna: 504
+* time: 10 nodeID: 39 sendTo: 376 byAntenna: 504
+[Received] time: 11	 sensorID: 401	 receivedFrom: 180	 hops: 4	 msg: This is the message number 1 created by the node 180 path 180 - 506 - 511 - 516 - 401
+[Received] time: 11	 sensorID: 215	 receivedFrom: 295	 hops: 4	 msg: This is the message number 0 created by the node 295 path 295 - 512 - 513 - 514 - 215
+[Received] time: 11	 sensorID: 165	 receivedFrom: 268	 hops: 4	 msg: This is the message number 1 created by the node 268 path 268 - 511 - 512 - 507 - 165
+[Received] time: 11	 sensorID: 416	 receivedFrom: 484	 hops: 3	 msg: This is the message number 1 created by the node 484 path 484 - 525 - 520 - 416
+[Received] time: 11	 sensorID: 368	 receivedFrom: 463	 hops: 5	 msg: This is the message number 0 created by the node 463 path 463 - 521 - 522 - 523 - 518 - 368
+[Received] time: 11	 sensorID: 338	 receivedFrom: 470	 hops: 3	 msg: This is the message number 1 created by the node 470 path 470 - 522 - 517 - 338
+* time: 11 nodeID: 437 sendTo: 497 byAntenna: 524
+* time: 11 nodeID: 431 sendTo: 299 byAntenna: 523
+* time: 11 nodeID: 325 sendTo: 453 byAntenna: 519
+* time: 11 nodeID: 197 sendTo: 251 byAntenna: 510
+* time: 11 nodeID: 85 sendTo: 425 byAntenna: 505
+* time: 11 nodeID: 206 sendTo: 392 byAntenna: 507
+* time: 11 nodeID: 146 sendTo: 491 byAntenna: 508
+[Received] time: 12	 sensorID: 262	 receivedFrom: 281	 hops: 2	 msg: This is the message number 0 created by the node 281 path 281 - 514 - 262
+[Received] time: 12	 sensorID: 102	 receivedFrom: 272	 hops: 5	 msg: This is the message number 1 created by the node 272 path 272 - 512 - 513 - 508 - 503 - 102
+[Received] time: 12	 sensorID: 497	 receivedFrom: 379	 hops: 3	 msg: This is the message number 0 created by the node 379 path 379 - 517 - 522 - 497
+[Received] time: 12	 sensorID: 377	 receivedFrom: 239	 hops: 5	 msg: This is the message number 0 created by the node 239 path 239 - 514 - 513 - 512 - 511 - 377
+[Received] time: 12	 sensorID: 253	 receivedFrom: 318	 hops: 3	 msg: This is the message number 1 created by the node 318 path 318 - 517 - 512 - 253
+[Received] time: 12	 sensorID: 123	 receivedFrom: 290	 hops: 5	 msg: This is the message number 1 created by the node 290 path 290 - 511 - 512 - 513 - 508 - 123
+* time: 12 nodeID: 455 sendTo: 274 byAntenna: 524
+* time: 12 nodeID: 365 sendTo: 370 byAntenna: 518
+* time: 12 nodeID: 331 sendTo: 107 byAntenna: 511
+* time: 12 nodeID: 131 sendTo: 88 byAntenna: 510
+* time: 12 nodeID: 69 sendTo: 287 byAntenna: 501
+[No signal] time: 12 nodeID: 45
+[No signal] position: 2236, 4876
+* time: 12 nodeID: 298 sendTo: 128 byAntenna: 513
+* time: 12 nodeID: 286 sendTo: 215 byAntenna: 515
+* time: 12 nodeID: 234 sendTo: 194 byAntenna: 513
+[No signal] time: 12 nodeID: 16
+[No signal] position: 35776, 404
+[No signal] time: 12 nodeID: 12
+[No signal] position: 26832, 404
+[Received] time: 13	 sensorID: 477	 receivedFrom: 451	 hops: 1	 msg:  - 477
+[Received] time: 13	 sensorID: 233	 receivedFrom: 490	 hops: 5	 msg: This is the message number 1 created by the node 490 path 490 - 522 - 523 - 518 - 513 - 233
+[Received] time: 13	 sensorID: 201	 receivedFrom: 148	 hops: 5	 msg: This is the message number 1 created by the node 148 path 148 - 509 - 508 - 507 - 506 - 201
+[Received] time: 13	 sensorID: 199	 receivedFrom: 270	 hops: 4	 msg: This is the message number 1 created by the node 270 path 270 - 512 - 511 - 506 - 199
+[Received] time: 13	 sensorID: 125	 receivedFrom: 456	 hops: 6	 msg: This is the message number 1 created by the node 456 path 456 - 524 - 523 - 518 - 513 - 508 - 125
+[Received] time: 13	 sensorID: 51	 receivedFrom: 99	 hops: 2	 msg:  - 502 - 51
+[Received] time: 13	 sensorID: 458	 receivedFrom: 380	 hops: 4	 msg: This is the message number 1 created by the node 380 path 380 - 517 - 518 - 519 - 458
+[Received] time: 13	 sensorID: 252	 receivedFrom: 125	 hops: 4	 msg: This is the message number 0 created by the node 125 path 125 - 504 - 509 - 508 - 252
+* time: 13 nodeID: 377 sendTo: 247 byAntenna: 516
+* time: 13 nodeID: 223 sendTo: 101 byAntenna: 511
+* time: 13 nodeID: 151 sendTo: 131 byAntenna: 509
+* time: 13 nodeID: 121 sendTo: 196 byAntenna: 503
+* time: 13 nodeID: 430 sendTo: 324 byAntenna: 523
+* time: 13 nodeID: 424 sendTo: 54 byAntenna: 521
+* time: 13 nodeID: 200 sendTo: 344 byAntenna: 506
+[Received] time: 14	 sensorID: 461	 receivedFrom: 106	 hops: 5	 msg: This is the message number 1 created by the node 106 path 106 - 504 - 509 - 514 - 519 - 461
+[Received] time: 14	 sensorID: 131	 receivedFrom: 81	 hops: 2	 msg: This is the message number 0 created by the node 81 path 81 - 504 - 131
+[Received] time: 14	 sensorID: 484	 receivedFrom: 416	 hops: 1	 msg:  - 484
+[Received] time: 14	 sensorID: 454	 receivedFrom: 448	 hops: 2	 msg:  - 523 - 454
+[Received] time: 14	 sensorID: 338	 receivedFrom: 355	 hops: 2	 msg:  - 517 - 338
+[Received] time: 14	 sensorID: 242	 receivedFrom: 299	 hops: 4	 msg: This is the message number 0 created by the node 299 path 299 - 513 - 514 - 515 - 242
+[Received] time: 14	 sensorID: 194	 receivedFrom: 275	 hops: 4	 msg: This is the message number 0 created by the node 275 path 275 - 513 - 514 - 509 - 194
+[Received] time: 14	 sensorID: 98	 receivedFrom: 72	 hops: 2	 msg:  - 502 - 98
+* time: 14 nodeID: 423 sendTo: 255 byAntenna: 521
+* time: 14 nodeID: 417 sendTo: 384 byAntenna: 520
+* time: 14 nodeID: 407 sendTo: 67 byAntenna: 518
+* time: 14 nodeID: 480 sendTo: 188 byAntenna: 524
+* time: 14 nodeID: 464 sendTo: 252 byAntenna: 521
+* time: 14 nodeID: 382 sendTo: 360 byAntenna: 517
+* time: 14 nodeID: 322 sendTo: 454 byAntenna: 518
+* time: 14 nodeID: 209 sendTo: 470 byAntenna: 508
+* time: 14 nodeID: 214 sendTo: 199 byAntenna: 509
+* time: 14 nodeID: 177 sendTo: 105 byAntenna: 506
+* time: 14 nodeID: 155 sendTo: 194 byAntenna: 506
+[Received] time: 15	 sensorID: 427	 receivedFrom: 227	 hops: 3	 msg: This is the message number 0 created by the node 227 path 227 - 512 - 517 - 427
+[Received] time: 15	 sensorID: 351	 receivedFrom: 327	 hops: 3	 msg: This is the message number 0 created by the node 327 path 327 - 519 - 514 - 351
+[Received] time: 15	 sensorID: 269	 receivedFrom: 498	 hops: 6	 msg: This is the message number 1 created by the node 498 path 498 - 524 - 523 - 522 - 517 - 512 - 269
+[Received] time: 15	 sensorID: 259	 receivedFrom: 74	 hops: 4	 msg: This is the message number 1 created by the node 74 path 74 - 502 - 507 - 508 - 259
+[Received] time: 15	 sensorID: 163	 receivedFrom: 68	 hops: 2	 msg:  - 502 - 163
+[Received] time: 15	 sensorID: 39	 receivedFrom: 317	 hops: 7	 msg: This is the message number 0 created by the node 317 path 317 - 517 - 518 - 519 - 514 - 509 - 504 - 39
+[Received] time: 15	 sensorID: 490	 receivedFrom: 150	 hops: 7	 msg: This is the message number 1 created by the node 150 path 150 - 509 - 514 - 519 - 524 - 523 - 522 - 490
+[Received] time: 15	 sensorID: 470	 receivedFrom: 338	 hops: 1	 msg:  - 470
+[Received] time: 15	 sensorID: 318	 receivedFrom: 253	 hops: 1	 msg:  - 318
+[Received] time: 15	 sensorID: 70	 receivedFrom: 145	 hops: 5	 msg: This is the message number 0 created by the node 145 path 145 - 508 - 507 - 506 - 501 - 70
+* time: 15 nodeID: 287 sendTo: 302 byAntenna: 511
+* time: 15 nodeID: 396 sendTo: 5 byAntenna: 520
+* time: 15 nodeID: 44 sendTo: 236 byAntenna: 505
+[No signal] time: 15 nodeID: 22
+[No signal] position: 49192, 404
+[Received] time: 16	 sensorID: 433	 receivedFrom: 205	 hops: 5	 msg: This is the message number 0 created by the node 205 path 205 - 507 - 512 - 517 - 518 - 433
+[Received] time: 16	 sensorID: 349	 receivedFrom: 427	 hops: 5	 msg: This is the message number 0 created by the node 427 path 427 - 522 - 523 - 524 - 519 - 349
+[Received] time: 16	 sensorID: 270	 receivedFrom: 199	 hops: 1	 msg:  - 270
+[Received] time: 16	 sensorID: 80	 receivedFrom: 339	 hops: 6	 msg: This is the message number 0 created by the node 339 path 339 - 517 - 518 - 513 - 508 - 503 - 80
+[Received] time: 16	 sensorID: 40	 receivedFrom: 56	 hops: 3	 msg: This is the message number 1 created by the node 56 path 56 - 503 - 504 - 40
+* time: 16 nodeID: 393 sendTo: 435 byAntenna: 520
+* time: 16 nodeID: 359 sendTo: 45 byAntenna: 517
+* time: 16 nodeID: 355 sendTo: 471 byAntenna: 516
+* time: 16 nodeID: 261 sendTo: 39 byAntenna: 514
+* time: 16 nodeID: 203 sendTo: 310 byAntenna: 507
+* time: 16 nodeID: 472 sendTo: 144 byAntenna: 523
+* time: 16 nodeID: 181 sendTo: 343 byAntenna: 507
+* time: 16 nodeID: 127 sendTo: 417 byAntenna: 509
+* time: 16 nodeID: 458 sendTo: 116 byAntenna: 524
+* time: 16 nodeID: 111 sendTo: 387 byAntenna: 501
+* time: 16 nodeID: 400 sendTo: 79 byAntenna: 516
+* time: 16 nodeID: 354 sendTo: 325 byAntenna: 516
+* time: 16 nodeID: 250 sendTo: 10 byAntenna: 512
+* time: 16 nodeID: 244 sendTo: 142 byAntenna: 511
+[Received] time: 17	 sensorID: 453	 receivedFrom: 325	 hops: 3	 msg: This is the message number 0 created by the node 325 path 325 - 519 - 518 - 453
+[Received] time: 17	 sensorID: 317	 receivedFrom: 112	 hops: 5	 msg: This is the message number 1 created by the node 112 path 112 - 501 - 506 - 511 - 512 - 317
+[Received] time: 17	 sensorID: 281	 receivedFrom: 262	 hops: 2	 msg:  - 514 - 281
+[Received] time: 17	 sensorID: 370	 receivedFrom: 491	 hops: 5	 msg: This is the message number 0 created by the node 491 path 491 - 522 - 523 - 524 - 519 - 370
+[Received] time: 17	 sensorID: 36	 receivedFrom: 178	 hops: 5	 msg: This is the message number 1 created by the node 178 path 178 - 506 - 507 - 508 - 503 - 36
+* time: 17 nodeID: 409 sendTo: 336 byAntenna: 518
+* time: 17 nodeID: 47 sendTo: 467 byAntenna: 501
+[No signal] time: 17 nodeID: 9
+[No signal] position: 20124, 404
+[No signal] time: 17 nodeID: 3
+[No signal] position: 6708, 404
+* time: 17 nodeID: 500 sendTo: 204 byAntenna: 524
+* time: 17 nodeID: 312 sendTo: 18 byAntenna: 516
+* time: 17 nodeID: 182 sendTo: 108 byAntenna: 507
+[Received] time: 18	 sensorID: 295	 receivedFrom: 215	 hops: 3	 msg:  - 514 - 513 - 295
+[Received] time: 18	 sensorID: 215	 receivedFrom: 286	 hops: 3	 msg: This is the message number 1 created by the node 286 path 286 - 515 - 514 - 215
+[Received] time: 18	 sensorID: 450	 receivedFrom: 95	 hops: 5	 msg: This is the message number 0 created by the node 95 path 95 - 502 - 507 - 512 - 517 - 450
+[Received] time: 18	 sensorID: 360	 receivedFrom: 382	 hops: 2	 msg: This is the message number 1 created by the node 382 path 382 - 517 - 360
+[Received] time: 18	 sensorID: 324	 receivedFrom: 114	 hops: 5	 msg: This is the message number 1 created by the node 114 path 114 - 506 - 511 - 512 - 513 - 324
+[Received] time: 18	 sensorID: 268	 receivedFrom: 165	 hops: 3	 msg:  - 507 - 506 - 268
+[Received] time: 18	 s

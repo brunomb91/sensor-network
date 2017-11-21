@@ -9,6 +9,8 @@ public class BullyAlgorithm extends Node {
 	public void handleMessages(Inbox inbox) {
 		// TODO Auto-generated method stub
 		while(inbox.hasMoreMessages()) {
+			//Message message = inbox.getNextMessage();
+			
 			
 		}
 		
