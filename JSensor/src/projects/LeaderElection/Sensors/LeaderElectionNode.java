@@ -9,9 +9,8 @@ import jsensor.nodes.Node;
 import jsensor.nodes.messages.Inbox;
 import jsensor.nodes.messages.Message;
 import jsensor.runtime.Jsensor;
-import projects.Flooding.Messages.FloodingMessage;
-import projects.Flooding.Timers.FloodingTimer;
 import projects.LeaderElection.Messages.LeaderElectionMessage;
+import projects.LeaderElection.Timers.LeaderElectionTimer;
 
 public class LeaderElectionNode extends Node {
 	Queue<Node> nodeQueue = new PriorityQueue<Node>();
@@ -26,24 +25,25 @@ public class LeaderElectionNode extends Node {
 		while(inbox.hasMoreMessages()) {
 			Message message = inbox.getNextMessage();
 	          
-	           if(message instanceof FloodingMessage)
+	           if(message instanceof LeaderElectionMessage)
 	           {
-	        	   FloodingMessage floodingMessage = (FloodingMessage) message;
+	        	   LeaderElectionMessage leaderElectionMessage = (LeaderElectionMessage) message;
 	        	   
-	               if(this.messagesIDs.contains(floodingMessage.getID()))
+	               if(this.messagesIDs.contains(leaderElectionMessage.getID()))
 	               {
 	                   continue;
 	               }
 	               
-	               this.messagesIDs.add(floodingMessage.getID());
+	               this.messagesIDs.add(leaderElectionMessage.getID());
 	               
-	               if(floodingMessage.getDestination().equals(this))
+	               if(leaderElectionMessage.getDestination().equals(this))
 	               {
 	            	   Jsensor.log("time: "+ Jsensor.currentTime +
 	            			   "\t sensorID: " +this.ID+
-	            			   "\t receivedFrom: " +floodingMessage.getSender().getID()+
-	            			   "\t hops: "+ floodingMessage.getHops() +
-	            			   "\t msg: " +floodingMessage.getMsg().concat(this.ID+""));
+	            			   "\t receivedFrom: " +leaderElectionMessage.getSender().getID() +
+	            			   "\t hops: "+ leaderElectionMessage.getHops() +
+	            			   "\t msg: " + leaderElectionMessage.getMsg().concat(this.ID+"") +
+	            			   "\t leader: " +leaderElectionMessage.getLeaderMsg());
 	               }
 	               else
 	               {
@@ -55,7 +55,7 @@ public class LeaderElectionNode extends Node {
 					    }
 					    
 					    if (cont > 0){
-		            	   floodingMessage.setMsg(floodingMessage.getMsg().concat(this.ID+ " - "));
+					    	leaderElectionMessage.setMsg(leaderElectionMessage.getMsg().concat(this.ID+ " - "));
 		                   this.multicast(message);
 					    }
 	               }
@@ -75,7 +75,7 @@ public class LeaderElectionNode extends Node {
         if(this.ID < 10)
         {
         	int time = 10 + this.ID * 10;
-        	FloodingTimer ft = new FloodingTimer();
+        	LeaderElectionTimer ft = new LeaderElectionTimer();
             ft.startRelative(time, this);
         }
 		
@@ -86,7 +86,7 @@ public class LeaderElectionNode extends Node {
 	 * Optimal Distributed Leader Election Algorithm
 	 */
 	
-	public void leaderElectionOptimal(Node node, LeaderElectionMessage leaderElectionMessage) {
+	public void optimalLeaderElection(Node node, LeaderElectionMessage leaderElectionMessage) {
 		HashMap<Node, Double> fail = new HashMap<Node, Double>();
 		Node[] arrayQueue;
 		int sizeOfQueue = nodeQueue.size();
